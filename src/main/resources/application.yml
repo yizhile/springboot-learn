@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: root
+    password: Fly_2019
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test
+mybatis:
+  type-aliases-package: com.yizhile.domain
+  mapper-locations: com/yizhile/mapper/*.xml
