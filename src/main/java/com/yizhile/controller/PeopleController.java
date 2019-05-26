@@ -15,6 +15,7 @@ public class PeopleController {
     @Autowired
     private PeopleService peopleService;
 
+    //添加一个People信息到数据库中
     @RequestMapping(value = "/add",method = RequestMethod.POST)
     @ResponseBody
     public Integer add(@RequestBody People people){

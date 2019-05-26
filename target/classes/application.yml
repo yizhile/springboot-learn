@@ -1,9 +1,9 @@
 spring:
   datasource:
-    username: postgres
+    username: root
     password: Fly_2019
-    url: jdbc:postgresql://localhost:5432/postgres
-    driver-class-name: org.postgresql.Driver
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test
 mybatis:
   type-aliases-package: com.yizhile.domain
   mapper-locations: com/yizhile/mapper/*.xml
